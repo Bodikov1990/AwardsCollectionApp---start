@@ -23,6 +23,7 @@ struct AwardsView: View {
                         .padding()
                     BatmanView()
                         .frame(width: 250, height: 100)
+                        .shadow(color: .gray, radius: 5, x: 10, y: 10)
                         .padding()
                 }
             }
